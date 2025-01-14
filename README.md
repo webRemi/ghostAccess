@@ -11,12 +11,12 @@ make
 make install
 ```
 
-## Compile on windows10
+## Compile for windows10
 ```bash
 x86_64-w64-mingw32-gcc loader.c -o loader.exe -I/usr/local/openssl-windows/include -L/usr/local/openssl-windows/lib -lcrypto -lssl -lws2_32
 ```
 
-## Compile on windows11
+## Compile for windows11
 ```bash
 x86_64-w64-mingw32-gcc loader.c -o loader.exe -I/usr/local/openssl-windows/include -L/usr/local/openssl-windows/lib -lcrypto -lssl -lws2_32 -static
 ```
